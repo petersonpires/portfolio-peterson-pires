@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* Estilo genérico */
+body {
+    font-family: "Krona One", serif;
+    background-color: #000;
+    color: #75EBF0;
+    margin: 20px;
+}
+
+img {
+    width: 40px;
+}
+
+/* Estilo de links */
+div ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+div ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: #75EBF0;
+}
+
+/* Estilo de titulo */
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo de parágrafo */
+p {
+    text-align: center;
+}
+
+.projeto_tecnologica {
+    text-decoration: none;
+    color: #24F049;
+}
+
+/* Estilo de formulário para contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+ 
+form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+ 
+form input, form textarea {
+    background-color: #878787;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+ 
+form button {
+    font-family: "Krona One", serif;
+    background-color: #878787;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+form button:hover {
+    background-color: #CCC;
+}
+ 
